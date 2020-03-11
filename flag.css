@@ -1,0 +1,54 @@
+button{
+    text-align: center;
+    text-decoration: none;
+    outline:none;
+    width: 100px;
+    border-radius: 50px;
+    background-color: rgb(223, 12, 12);
+    border: none;
+    height: 35px;
+    color: cornsilk;
+    box-shadow: 2px 5px 3px grey ;
+    margin: 15px;
+    transition-duration: 0.4s;
+    font-size: 15px;
+}
+button:active{
+    background-color: lightskyblue;
+    box-shadow: 0 1px #666;
+    transform: translateY(4px);
+}
+.flag{
+    animation-name: example;
+    animation-duration: 4s;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(212, 67, 22);
+    background-image: linear-gradient(rgb(252, 8, 0), rgb(241, 245, 6));
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 30px;
+    box-shadow: 3px 10px 3px rgb(218, 117, 117);
+    position: relative;
+}
+button:hover{
+    background-color: rgb(248, 130, 130);
+    transition: ease-in 0.5s;
+}
+img{
+    color: black;
+    text-shadow: 2px 2px 5px white;
+    border: 30px black;
+    border-radius: 3px;
+}
+h1{
+    font-size: 3vw;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+@keyframes example {
+0%   { left:-250px; top:0px;}
+ 25%  { left:0px; top:0px;}
+}
