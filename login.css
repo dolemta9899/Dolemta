@@ -6,8 +6,10 @@
     width: 350px;
     height: 300px;
     margin: auto;
+    margin-top: 100px;
     border-radius: 10px;
-    border: 1px solid red;
+    border: 0.5px solid red;
+    text-align: center;
     box-shadow: 2px 5px 3px rgb(130, 135, 207) ;
     background-image: linear-gradient( white, rgb(36, 36, 233));
 }
@@ -47,4 +49,18 @@ form{
     border-radius: 10px;
     color: white;
     text-align: center;
+}
+#login:hover{
+    background: rgb(241, 128, 128);
+    transition: ease-in 0.5s;
+}
+.section>a{
+    text-decoration: none;
+    color: rgb(250, 245, 245);
+    font-size: 13px;
+}
+.section>a:hover{
+    color: red;
+    font-size: 14px;
+    text-decoration: underline;
 }
