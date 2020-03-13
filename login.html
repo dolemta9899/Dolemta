@@ -20,6 +20,27 @@
             <input type="submit" value="LOGIN" id="login"/>
         </form>
         <a href="#" id="forgot">If you have forgotten your account, click here!!</a>
+        <p></p>
     </div>
+    <script>
+        function time(){
+            var d = new Date(),
+            hour = d.getHours(),
+            mins = d.getMinutes(),
+            secs = d.getSeconds();
+            if (secs < 10){
+                secs = "0" + secs;
+            }
+            if (mins < 10){
+                mins += "0";
+            }
+            if (hour < 10){
+                hour += "0";
+            }
+            document.getElementsByTagName("p")[0].innerHTML = hour + ":" + mins + ":" + secs;
+        }
+        setInterval(time,1000);
+
+    </script>
 </body>
 </html> 

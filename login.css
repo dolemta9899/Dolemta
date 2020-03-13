@@ -64,3 +64,17 @@ form{
     font-size: 14px;
     text-decoration: underline;
 }
+.section>p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(25, 219, 90);
+    font-size: 12px;
+    width: 55px;
+    height: 12px;
+    text-align: center;
+    background: rgb(235, 220, 220);
+    border-radius: 10px;
+    margin-left: 275px;
+    margin-top: 50px;
+    border: 1px solid pink;
+    padding: 6px;
+}
